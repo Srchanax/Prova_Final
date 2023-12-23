@@ -27,10 +27,10 @@ class CadastroPage extends StatelessWidget {
           color: Colors.amber, 
           child: Row(
             children: [
-              SizedBox(width: 8), // Adicione algum espaçamento entre o ícone e o título
+              SizedBox(width: 8), 
               Text(
                 'Cadastro(Túllyo Honorio Araújo da Silva)',
-                style: TextStyle(color: Colors.black), // Cor do texto
+                style: TextStyle(color: Colors.black), 
               ),
             ],
           ),
@@ -52,8 +52,6 @@ class CadastroPage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Lógica para salvar o usuário
-                // ...
               },
               child: Text('Cadastrar'),
             ),
