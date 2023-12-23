@@ -33,7 +33,6 @@ class EdicaoPage extends StatelessWidget {
             SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                // Lógica para salvar as alterações
                 user.name = nameController.text;
                 user.email = emailController.text;
                 Navigator.pop(context); // Voltar para a tela de visualização
